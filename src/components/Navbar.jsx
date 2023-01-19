@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-14 mx-auto px-4  z-[100] bg-black/50 absolute w-full text-white">
       <h1 className="w-full text-3xl font-bold text-white">Coffee</h1>
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex  hover:cursor-pointer">
         <li className="p-4">
           <Link to="home" smooth={true} offset={-50} duration={1500}>
             Home
